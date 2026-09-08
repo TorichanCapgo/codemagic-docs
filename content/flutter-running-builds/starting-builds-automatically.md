@@ -70,7 +70,7 @@ To add a new tag pattern:
 
 ## Exit or ignore build on certain commit message
 
-You can **skip building** automatically triggered workflows by adding `[skip ci]` or `[ci skip]` to your commit message. The workflow will still be started but it will exit without building.
+You can **skip building** automatically triggered workflows by adding `[skip ci]` or `[ci skip]` to your commit message.
 
 If you want to exit a build **when commit message does not include certain string**, then you can add the following script at the top of your scripts section and it will take care of exiting the build or moving forward. In the following example, builds will proceed only if the commit message includes **_buildcd_** string.
 
